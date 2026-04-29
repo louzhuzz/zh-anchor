@@ -1,0 +1,9 @@
+{
+  "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-openagent/dev/assets/oh-my-opencode.schema.json",
+  "agents": {
+    "sisyphus": {
+      "model": "deepseek/deepseek-v4-flash",
+      "prompt_append": "你必须使用中文语言思维完成所有任务。在收到用户第一条消息后、执行任何操作或开始推理前，你必须先用中文写一段简短的总结，说明用户需要你做什么、你计划用什么步骤完成、你还缺什么信息。这段中文是你第一个输出，完成这段输出后才能执行具体任务。后续消息不受此限制，但须保持中文思维。"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "sidebar": [
+    {
+      "name": "magic-context",
+      "source": "@cortexkit/opencode-magic-context"
+    }
+  ]
+}
